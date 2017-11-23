@@ -75,6 +75,26 @@
     position: absolute;
     width: 100vw; }
 
+#sideMenu {
+  padding: 10px;
+  width: 100px;
+  position: fixed;
+  margin-left: 2%;
+  color: black;
+  font-weight: bold;
+  font-size: 1.0 em; }
+  #sideMenu ul {
+    list-style-type: none; }
+    #sideMenu ul li {
+      margin: 20px 5px 20px 5px; }
+      #sideMenu ul li a {
+        text-decoration: none;
+        color: black; }
+
+#main {
+  padding-top: 40px;
+  margin-left: 205px; }
+
 html, body {
   margin: 0;
   padding: 0;

@@ -24,5 +24,31 @@
 	#aboutImage{
 		position: absolute;
 		width: 100vw;
-	}
+	} 
+}
+#sideMenu {
+        padding: 10px;
+        width: 100px;
+        position: fixed;
+
+        margin-left: 2%;
+        //font styling
+        color: black;
+        font-weight: bold;
+        font-size: 1.0 em;
+        
+       ul {
+           list-style-type: none;
+                li {
+                        margin: 20px 5px 20px 5px;
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+                    }
+       }        
+}
+#main {
+        padding-top: 40px;        
+        margin-left: 205px;
 }
